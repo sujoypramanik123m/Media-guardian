@@ -1,0 +1,30 @@
+{
+  "name": "MediaGuardian",
+  "description": "A Telegram bot to auto-delete media messages after a set time.",
+  "repository": "https://github.com/Botminetech/Mediagrudian",
+  "keywords": ["telegram", "pyrogram", "media", "autodelete", "bot"],
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash from https://my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from BotFather",
+      "required": true
+    },
+    "DELETE_DELAY": {
+      "description": "Time in seconds after which media should be auto-deleted (default 900 for 15 minutes)",
+      "required": false,
+      "value": "900"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
