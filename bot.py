@@ -21,26 +21,26 @@ async def auto_delete_media(client: Client, message: Message):
 @bot.on_message(filters.command("start") & filters.private)
 async def start_command(client, message: Message):
     await message.reply_photo(
-        photo="https://envs.sh/HcV.jpg",
+        photo="https://ibb.co/1t14r9NY",
         caption=f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•
 ┆✦ » ʜᴇʏ {message.from_user.mention}
 └──────────────────────•
 ✦ » ɪ'ᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴍᴇᴅɪᴀ ɢᴜᴀʀᴅɪᴀɴ ʙᴏᴛ.
-✦ » ɪ ᴡɪʟʟ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴍᴇᴅɪᴀ ᴍᴇssᴀɢᴇs ᴀғᴛᴇʀ 𝟷𝟻 ᴍɪɴᴜᴛᴇs ɪɴ ɢʀᴏᴜᴘ
+✦ » ɪ ᴡɪʟʟ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴍᴇᴅɪᴀ ᴍᴇssᴀɢᴇs ᴀғᴛᴇʀ 𝟺𝟻 ᴍɪɴᴜᴛᴇs ɪɴ ɢʀᴏᴜᴘ
 ✦ » ᴄʜᴇᴄᴋ ᴍʏ ᴀʙɪʟɪᴛʏ, ɢɪᴠᴇ ᴍᴇ ᴏɴʟʏ ᴅᴇʟᴇᴛᴇ ᴘᴏᴡᴇʀ ᴀɴᴅ ꜱᴇᴇ ᴍᴀɢɪᴄ ɪɴ ɢʀᴏᴜᴘ.
 
 •──────────────────────•
-❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ ➪ [˹ ʙᴏᴛᴍɪɴᴇ-ᴛᴇᴄʜ ˼](https://t.me/BOTMINE_TECH)
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ ➪ [˹ Pʀᴏ Tᴏᴘᴘᴇʀs ˼](https://t.me/ProToppers)
 •──────────────────────•""",
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙", url=f"https://t.me/{client.me.username}?startgroup=true")],
             [
-                InlineKeyboardButton("˹ ᴏᴡɴᴇʀ ˼", url="https://t.me/ll_RADHE7_ll"),
-                InlineKeyboardButton("˹ υᴘᴅᴧᴛєs ˼", url="https://t.me/BOTMINE_TECH")
+                InlineKeyboardButton("˹ ᴏᴡɴᴇʀ ˼", url="https://t.me/UncleChipssBot"),
+                InlineKeyboardButton("˹ υᴘᴅᴧᴛєs ˼", url="https://t.me/SuperToppers")
             ],
             [
-                InlineKeyboardButton("˹ sᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/BOTMINE_SUPPORT"),
-                InlineKeyboardButton("˹ ᴍᴜsɪᴄ ʙᴏᴛ ˼", url="https://t.me/RADHE_MUSIC_ROBOT")
+                InlineKeyboardButton("˹ sᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/SuperToppers0"),
+                InlineKeyboardButton("˹ ᴍᴜsɪᴄ ʙᴏᴛ ˼", url="https://t.me/MusicToppersBot")
             ]
         ])
     )
