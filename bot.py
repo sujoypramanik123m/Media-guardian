@@ -21,7 +21,7 @@ async def auto_delete_media(client: Client, message: Message):
 @bot.on_message(filters.command("start") & filters.private)
 async def start_command(client, message: Message):
     await message.reply_photo(
-        photo="https://ibb.co/1t14r9NY",
+        photo="https://ibb.co/F2f0c4K",
         caption=f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•
 ┆✦ » ʜᴇʏ {message.from_user.mention}
 └──────────────────────•
