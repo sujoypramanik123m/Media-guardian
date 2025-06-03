@@ -1,23 +1,23 @@
-# Base Python image
+# Use the base Python image
 FROM python:3.10-slim
 
-# Working directory set karo
+# Set the working directory
 WORKDIR /app
 
-# Requirements copy karo
+# Copy the requirements file
 COPY requirements.txt .
 
-# Dependencies install karo
+# Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Bot ke saare files copy karo
+# Copy all bot files
 COPY . .
 
-# Port expose karo (jo dummy HTTP server use karta hai)
+# Expose the port (used by the dummy HTTP server)
 EXPOSE 8000
 
-# Environment variable for unbuffered output (logs ke liye)
+# Set environment variable for unbuffered output (for logs)
 ENV PYTHONUNBUFFERED=1
 
-# Sahi command jo script ko run kare
+# Correct command to run the script
 CMD ["python", "bot.py"]
