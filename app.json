@@ -19,7 +19,7 @@
     "DELETE_DELAY": {
       "description": "Time in seconds after which media should be auto-deleted (default 900 for 15 minutes)",
       "required": false,
-      "value": "900"
+      "value": "2700"
     }
   },
   "buildpacks": [
